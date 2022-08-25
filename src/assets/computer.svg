@@ -1,0 +1,880 @@
+<svg
+            width="300"
+            height="228"
+            viewBox="0 0 300 228"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="computer">
+              <g id="screen">
+                <path
+                  id="screen_2"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M24 0C10.7452 0 0 10.7452 0 24V176C0 189.255 10.7452 200 24 200H276C289.255 200 300 189.255 300 176V24C300 10.7452 289.255 0 276 0H24ZM26 10C17.1634 10 10 17.1634 10 26V174C10 182.837 17.1634 190 26 190H274C282.837 190 290 182.837 290 174V26C290 17.1634 282.837 10 274 10H26Z"
+                  fill="#494454"
+                />
+                <path
+                  id="support"
+                  d="M121.457 199.024C122.4 197.751 123.891 197 125.476 197H173.524C175.109 197 176.6 197.751 177.543 199.024L193.094 220.024C195.537 223.324 193.182 228 189.076 228H109.924C105.818 228 103.463 223.324 105.906 220.024L121.457 199.024Z"
+                  fill="#494454"
+                />
+                <line
+                  id="desk"
+                  x1="50"
+                  y1="227.5"
+                  x2="250"
+                  y2="227.5"
+                  stroke="#494454"
+                  strokeOpacity="0.5"
+                />
+                <path
+                  id="navbar"
+                  d="M10 26C10 17.1634 17.1634 10 26 10H274C282.837 10 290 17.1634 290 26V35H10V26Z"
+                  fill="#816EFF"
+                />
+              </g>
+              <g id="box">
+                <g id="box4" filter="url(#filter0_d_39_180)">
+                  <rect
+                    x="163"
+                    y="118"
+                    width="101"
+                    height="50"
+                    rx="5"
+                    fill="#FCF7FF"
+                  />
+                </g>
+                <g id="box3" filter="url(#filter1_d_39_180)">
+                  <rect
+                    x="38"
+                    y="115"
+                    width="101"
+                    height="50"
+                    rx="5"
+                    fill="#FCF7FF"
+                  />
+                </g>
+                <g id="box2" filter="url(#filter2_d_39_180)">
+                  <rect
+                    x="160"
+                    y="50"
+                    width="101"
+                    height="50"
+                    rx="5"
+                    fill="#FCF7FF"
+                  />
+                </g>
+                <g id="box1" filter="url(#filter3_d_39_180)">
+                  <rect
+                    x="38"
+                    y="50"
+                    width="101"
+                    height="50"
+                    rx="5"
+                    fill="#FCF7FF"
+                  />
+                </g>
+              </g>
+              <g id="qrcode">
+                <g id="qrcode4">
+                  <g id="Group 3">
+                    <g id="qrcode_2">
+                      <path
+                        id="Vector"
+                        d="M186.125 125H173V138.125H186.125V125ZM183.938 135.938H175.188V127.188H183.938V135.938Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M177.375 129.375H181.75V133.75H177.375V129.375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_3"
+                        d="M173 160H186.125V146.875H173V160ZM175.188 149.062H183.938V157.812H175.188V149.062Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_4"
+                        d="M177.375 151.25H181.75V155.625H177.375V151.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_5"
+                        d="M194.875 125V138.125H208V125H194.875ZM205.812 135.938H197.062V127.188H205.812V135.938Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_6"
+                        d="M199.25 129.375H203.625V133.75H199.25V129.375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_7"
+                        d="M177.375 140.312H173V144.688H179.562V142.5H177.375V140.312Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_8"
+                        d="M188.312 144.688H192.688V149.062H188.312V144.688Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_9"
+                        d="M179.562 140.312H183.938V142.5H179.562V140.312Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_10"
+                        d="M192.688 151.25H188.312V153.438H190.5V155.625H192.688V153.438V151.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_11"
+                        d="M186.125 140.312V142.5H183.938V144.688H188.312V140.312H186.125Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_12"
+                        d="M190.5 133.75H192.688V138.125H190.5V133.75Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_13"
+                        d="M192.688 142.5V144.688H197.062V140.312H190.5V142.5H192.688Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_14"
+                        d="M188.312 138.125H190.5V140.312H188.312V138.125Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_15"
+                        d="M192.688 155.625H197.062V160H192.688V155.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_16"
+                        d="M188.312 155.625H190.5V160H188.312V155.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_17"
+                        d="M192.688 149.062H194.875V151.25H192.688V149.062Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_18"
+                        d="M192.688 131.562V127.188H190.5V125H188.312V133.75H190.5V131.562H192.688Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_19"
+                        d="M199.25 155.625H201.438V160H199.25V155.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_20"
+                        d="M199.25 151.25H203.625V153.438H199.25V151.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_21"
+                        d="M197.062 153.438H199.25V155.625H197.062V153.438Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_22"
+                        d="M194.875 151.25H197.062V153.438H194.875V151.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_23"
+                        d="M203.625 146.875V149.062H205.812V151.25H208V146.875H205.812H203.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_24"
+                        d="M205.812 153.438H203.625V160H208V155.625H205.812V153.438Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_25"
+                        d="M194.875 146.875V149.062H201.438V144.688H197.062V146.875H194.875Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_26"
+                        d="M199.25 140.312V142.5H203.625V144.688H208V140.312H203.625H199.25Z"
+                        fill="#494454"
+                      />
+                    </g>
+                    <g id="desc">
+                      <rect
+                        id="Rectangle 8"
+                        x="216"
+                        y="132.5"
+                        width="24"
+                        height="4"
+                        rx="2"
+                        fill="#494454"
+                      />
+                      <rect
+                        id="Rectangle 9"
+                        x="216"
+                        y="140.5"
+                        width="38"
+                        height="4"
+                        rx="2"
+                        fill="#494454"
+                      />
+                      <rect
+                        id="Rectangle 10"
+                        x="216"
+                        y="148.5"
+                        width="38"
+                        height="4"
+                        rx="2"
+                        fill="#494454"
+                      />
+                    </g>
+                  </g>
+                </g>
+                <g id="qrcode3">
+                  <g id="qrcode_3">
+                    <path
+                      id="Vector_27"
+                      d="M61.125 123H48V136.125H61.125V123ZM58.9375 133.938H50.1875V125.188H58.9375V133.938Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_28"
+                      d="M52.375 127.375H56.75V131.75H52.375V127.375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_29"
+                      d="M48 158H61.125V144.875H48V158ZM50.1875 147.062H58.9375V155.812H50.1875V147.062Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_30"
+                      d="M52.375 149.25H56.75V153.625H52.375V149.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_31"
+                      d="M69.875 123V136.125H83V123H69.875ZM80.8125 133.938H72.0625V125.188H80.8125V133.938Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_32"
+                      d="M74.25 127.375H78.625V131.75H74.25V127.375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_33"
+                      d="M52.375 138.312H48V142.688H54.5625V140.5H52.375V138.312Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_34"
+                      d="M63.3125 142.688H67.6875V147.062H63.3125V142.688Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_35"
+                      d="M54.5625 138.312H58.9375V140.5H54.5625V138.312Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_36"
+                      d="M67.6875 149.25H63.3125V151.438H65.5V153.625H67.6875V151.438V149.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_37"
+                      d="M61.125 138.312V140.5H58.9375V142.688H63.3125V138.312H61.125Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_38"
+                      d="M65.5 131.75H67.6875V136.125H65.5V131.75Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_39"
+                      d="M67.6875 140.5V142.688H72.0625V138.312H65.5V140.5H67.6875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_40"
+                      d="M63.3125 136.125H65.5V138.312H63.3125V136.125Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_41"
+                      d="M67.6875 153.625H72.0625V158H67.6875V153.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_42"
+                      d="M63.3125 153.625H65.5V158H63.3125V153.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_43"
+                      d="M67.6875 147.062H69.875V149.25H67.6875V147.062Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_44"
+                      d="M67.6875 129.562V125.188H65.5V123H63.3125V131.75H65.5V129.562H67.6875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_45"
+                      d="M74.25 153.625H76.4375V158H74.25V153.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_46"
+                      d="M74.25 149.25H78.625V151.438H74.25V149.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_47"
+                      d="M72.0625 151.438H74.25V153.625H72.0625V151.438Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_48"
+                      d="M69.875 149.25H72.0625V151.438H69.875V149.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_49"
+                      d="M78.625 144.875V147.062H80.8125V149.25H83V144.875H80.8125H78.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_50"
+                      d="M80.8125 151.438H78.625V158H83V153.625H80.8125V151.438Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_51"
+                      d="M69.875 144.875V147.062H76.4375V142.688H72.0625V144.875H69.875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_52"
+                      d="M74.25 138.312V140.5H78.625V142.688H83V138.312H78.625H74.25Z"
+                      fill="#494454"
+                    />
+                  </g>
+                  <g id="desc_2">
+                    <rect
+                      id="Rectangle 8_2"
+                      x="91"
+                      y="130.5"
+                      width="24"
+                      height="4"
+                      rx="2"
+                      fill="#494454"
+                    />
+                    <rect
+                      id="Rectangle 9_2"
+                      x="91"
+                      y="138.5"
+                      width="38"
+                      height="4"
+                      rx="2"
+                      fill="#494454"
+                    />
+                    <rect
+                      id="Rectangle 10_2"
+                      x="91"
+                      y="146.5"
+                      width="38"
+                      height="4"
+                      rx="2"
+                      fill="#494454"
+                    />
+                  </g>
+                </g>
+                <g id="qrcode2">
+                  <g id="Group 3_2">
+                    <g id="qrcode_4">
+                      <path
+                        id="Vector_53"
+                        d="M183.125 58H170V71.125H183.125V58ZM180.938 68.9375H172.188V60.1875H180.938V68.9375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_54"
+                        d="M174.375 62.375H178.75V66.75H174.375V62.375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_55"
+                        d="M170 93H183.125V79.875H170V93ZM172.188 82.0625H180.938V90.8125H172.188V82.0625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_56"
+                        d="M174.375 84.25H178.75V88.625H174.375V84.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_57"
+                        d="M191.875 58V71.125H205V58H191.875ZM202.812 68.9375H194.062V60.1875H202.812V68.9375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_58"
+                        d="M196.25 62.375H200.625V66.75H196.25V62.375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_59"
+                        d="M174.375 73.3125H170V77.6875H176.562V75.5H174.375V73.3125Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_60"
+                        d="M185.312 77.6875H189.688V82.0625H185.312V77.6875Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_61"
+                        d="M176.562 73.3125H180.938V75.5H176.562V73.3125Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_62"
+                        d="M189.688 84.25H185.312V86.4375H187.5V88.625H189.688V86.4375V84.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_63"
+                        d="M183.125 73.3125V75.5H180.938V77.6875H185.312V73.3125H183.125Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_64"
+                        d="M187.5 66.75H189.688V71.125H187.5V66.75Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_65"
+                        d="M189.688 75.5V77.6875H194.062V73.3125H187.5V75.5H189.688Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_66"
+                        d="M185.312 71.125H187.5V73.3125H185.312V71.125Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_67"
+                        d="M189.688 88.625H194.062V93H189.688V88.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_68"
+                        d="M185.312 88.625H187.5V93H185.312V88.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_69"
+                        d="M189.688 82.0625H191.875V84.25H189.688V82.0625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_70"
+                        d="M189.688 64.5625V60.1875H187.5V58H185.312V66.75H187.5V64.5625H189.688Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_71"
+                        d="M196.25 88.625H198.438V93H196.25V88.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_72"
+                        d="M196.25 84.25H200.625V86.4375H196.25V84.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_73"
+                        d="M194.062 86.4375H196.25V88.625H194.062V86.4375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_74"
+                        d="M191.875 84.25H194.062V86.4375H191.875V84.25Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_75"
+                        d="M200.625 79.875V82.0625H202.812V84.25H205V79.875H202.812H200.625Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_76"
+                        d="M202.812 86.4375H200.625V93H205V88.625H202.812V86.4375Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_77"
+                        d="M191.875 79.875V82.0625H198.438V77.6875H194.062V79.875H191.875Z"
+                        fill="#494454"
+                      />
+                      <path
+                        id="Vector_78"
+                        d="M196.25 73.3125V75.5H200.625V77.6875H205V73.3125H200.625H196.25Z"
+                        fill="#494454"
+                      />
+                    </g>
+                    <g id="desc_3">
+                      <rect
+                        id="Rectangle 8_3"
+                        x="213"
+                        y="65.5"
+                        width="24"
+                        height="4"
+                        rx="2"
+                        fill="#494454"
+                      />
+                      <rect
+                        id="Rectangle 9_3"
+                        x="213"
+                        y="73.5"
+                        width="38"
+                        height="4"
+                        rx="2"
+                        fill="#494454"
+                      />
+                      <rect
+                        id="Rectangle 10_3"
+                        x="213"
+                        y="81.5"
+                        width="38"
+                        height="4"
+                        rx="2"
+                        fill="#494454"
+                      />
+                    </g>
+                  </g>
+                </g>
+                <g id="qrcode1">
+                  <g id="qrcode_5">
+                    <path
+                      id="Vector_79"
+                      d="M61.125 58H48V71.125H61.125V58ZM58.9375 68.9375H50.1875V60.1875H58.9375V68.9375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_80"
+                      d="M52.375 62.375H56.75V66.75H52.375V62.375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_81"
+                      d="M48 93H61.125V79.875H48V93ZM50.1875 82.0625H58.9375V90.8125H50.1875V82.0625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_82"
+                      d="M52.375 84.25H56.75V88.625H52.375V84.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_83"
+                      d="M69.875 58V71.125H83V58H69.875ZM80.8125 68.9375H72.0625V60.1875H80.8125V68.9375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_84"
+                      d="M74.25 62.375H78.625V66.75H74.25V62.375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_85"
+                      d="M52.375 73.3125H48V77.6875H54.5625V75.5H52.375V73.3125Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_86"
+                      d="M63.3125 77.6875H67.6875V82.0625H63.3125V77.6875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_87"
+                      d="M54.5625 73.3125H58.9375V75.5H54.5625V73.3125Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_88"
+                      d="M67.6875 84.25H63.3125V86.4375H65.5V88.625H67.6875V86.4375V84.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_89"
+                      d="M61.125 73.3125V75.5H58.9375V77.6875H63.3125V73.3125H61.125Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_90"
+                      d="M65.5 66.75H67.6875V71.125H65.5V66.75Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_91"
+                      d="M67.6875 75.5V77.6875H72.0625V73.3125H65.5V75.5H67.6875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_92"
+                      d="M63.3125 71.125H65.5V73.3125H63.3125V71.125Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_93"
+                      d="M67.6875 88.625H72.0625V93H67.6875V88.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_94"
+                      d="M63.3125 88.625H65.5V93H63.3125V88.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_95"
+                      d="M67.6875 82.0625H69.875V84.25H67.6875V82.0625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_96"
+                      d="M67.6875 64.5625V60.1875H65.5V58H63.3125V66.75H65.5V64.5625H67.6875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_97"
+                      d="M74.25 88.625H76.4375V93H74.25V88.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_98"
+                      d="M74.25 84.25H78.625V86.4375H74.25V84.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_99"
+                      d="M72.0625 86.4375H74.25V88.625H72.0625V86.4375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_100"
+                      d="M69.875 84.25H72.0625V86.4375H69.875V84.25Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_101"
+                      d="M78.625 79.875V82.0625H80.8125V84.25H83V79.875H80.8125H78.625Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_102"
+                      d="M80.8125 86.4375H78.625V93H83V88.625H80.8125V86.4375Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_103"
+                      d="M69.875 79.875V82.0625H76.4375V77.6875H72.0625V79.875H69.875Z"
+                      fill="#494454"
+                    />
+                    <path
+                      id="Vector_104"
+                      d="M74.25 73.3125V75.5H78.625V77.6875H83V73.3125H78.625H74.25Z"
+                      fill="#494454"
+                    />
+                  </g>
+                  <g id="desc_4">
+                    <rect
+                      id="Rectangle 8_4"
+                      x="91"
+                      y="65.5"
+                      width="24"
+                      height="4"
+                      rx="2"
+                      fill="#494454"
+                    />
+                    <rect
+                      id="Rectangle 9_4"
+                      x="91"
+                      y="73.5"
+                      width="38"
+                      height="4"
+                      rx="2"
+                      fill="#494454"
+                    />
+                    <rect
+                      id="Rectangle 10_4"
+                      x="91"
+                      y="81.5"
+                      width="38"
+                      height="4"
+                      rx="2"
+                      fill="#494454"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+            <defs>
+              <filter
+                id="filter0_d_39_180"
+                x="161"
+                y="118"
+                width="105"
+                height="54"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="2" />
+                <feGaussianBlur stdDeviation="1" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_39_180"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_39_180"
+                  result="shape"
+                />
+              </filter>
+              <filter
+                id="filter1_d_39_180"
+                x="36"
+                y="115"
+                width="105"
+                height="54"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="2" />
+                <feGaussianBlur stdDeviation="1" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_39_180"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_39_180"
+                  result="shape"
+                />
+              </filter>
+              <filter
+                id="filter2_d_39_180"
+                x="158"
+                y="50"
+                width="105"
+                height="54"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="2" />
+                <feGaussianBlur stdDeviation="1" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_39_180"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_39_180"
+                  result="shape"
+                />
+              </filter>
+              <filter
+                id="filter3_d_39_180"
+                x="36"
+                y="50"
+                width="105"
+                height="54"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="2" />
+                <feGaussianBlur stdDeviation="1" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_39_180"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_39_180"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
