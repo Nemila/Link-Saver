@@ -8,17 +8,17 @@ function SocialMedia() {
       <p>Follow me</p>
       <ul className="flex gap-2 text-3xl text-primary">
         <li>
-          <a href="https://">
+          <a href="https://twitter.com/@nemila250">
             <BsTwitter />
           </a>
         </li>
         <li>
-          <a href="https://">
+          <a href="https://github.com/Nemila">
             <BsGithub />
           </a>
         </li>
         <li>
-          <a href="https://">
+          <a href="https://www.linkedin.com/in/lamine-diamoutene-4802691b5/">
             <BsLinkedin />
           </a>
         </li>
