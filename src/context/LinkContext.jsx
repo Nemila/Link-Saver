@@ -1,5 +1,12 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { addDoc, collection, onSnapshot, query } from "firebase/firestore";
+import {
+  addDoc,
+  collection,
+  deleteDoc,
+  doc,
+  onSnapshot,
+  query,
+} from "firebase/firestore";
 import { db } from "../firebase";
 import { AuthContext } from "./AuthContext";
 
@@ -9,28 +16,33 @@ export const LinkContextProvider = ({ children }) => {
   let { user } = useContext(AuthContext);
 
   //Create Link
-  const createLink = (newLink) => {
-    addDoc("links", newLink);
+  const createLink = async (newLink) => {
+    await addDoc(collection(db, "links"), newLink);
   };
+
   //Read link from firebase
   useEffect(() => {
-    const q = query(collection(db, "links"));
-    const unsubscribe = onSnapshot(q, (querySnapshot) => {
-      const linksArr = [];
-      querySnapshot.forEach((doc) => {
-        if (user !== null && doc.data().user === user.email) {
+    if (user !== null) {
+      const q = query(collection(db, "links"));
+      const unsubscribe = onSnapshot(q, (querySnapshot) => {
+        const linksArr = [];
+        querySnapshot.forEach((doc) => {
           linksArr.push({ ...doc.data(), id: doc.id });
-        }
+        });
+        setLinks(linksArr);
       });
-      setLinks(linksArr);
-    });
-    return () => unsubscribe;
+      return () => unsubscribe();
+    }
   }, [user]);
 
   //Update link in firebase
   //Delete link from firebase
+  const deleteLink = async (toDel) => {
+    await deleteDoc(doc(db, "links", toDel));
+  };
+
   return (
-    <LinkContext.Provider value={{ links, createLink }}>
+    <LinkContext.Provider value={{ links, createLink, deleteLink }}>
       {children}
     </LinkContext.Provider>
   );

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import NavItem from "./NavItem";
+import { style } from "../utils/style";
 
 function Navbar() {
   let { user, logOut } = useContext(AuthContext);
@@ -11,21 +12,19 @@ function Navbar() {
       <Link to="/" className="font-bold text-2xl">
         QRL
       </Link>
-      <ul className="flex gap-8 justify-center items-center">
+      <ul className={`${style.flexRowCenter} gap-8`}>
         {user ? (
           <>
             <NavItem to="/links">Links</NavItem>
             <button
               onClick={logOut}
-              className="px-4 py-2 bg-light text-dark rounded-md"
+              className={`${style.button} bg-light text-dark`}
             >
               Sign out
             </button>
           </>
         ) : (
-          <>
-            <NavItem to="/login">Join</NavItem>
-          </>
+          <NavItem to="/login">Login</NavItem>
         )}
       </ul>
     </nav>

@@ -1,37 +1,48 @@
 import React, { useContext, useState } from "react";
 import { useFormik } from "formik";
+import * as Yup from "yup";
 import { FaPlus } from "react-icons/fa";
 import { AuthContext } from "../context/AuthContext";
 import { LinkContext } from "../context/LinkContext";
+import { style } from "../utils/style";
 
 function AddBar() {
   const [editMode, setEditMode] = useState(false);
   const { user } = useContext(AuthContext);
   const { createLink } = useContext(LinkContext);
 
-  let formik = useFormik({
+  const formik = useFormik({
     initialValues: {
       linkName: "",
       linkUrl: "",
     },
+    validationSchema: Yup.object().shape({
+      linkName: Yup.string()
+        .min(4, "Minimum characters 4")
+        .max(20, "Maximum characters 20")
+        .required("Please add a value to name"),
+      linkUrl: Yup.string().required("Please add a link"),
+    }),
     onSubmit: (values) => {
       createLink({
         name: values.linkName,
         link: values.linkUrl,
         user: user.email,
       });
+      setEditMode(false);
+      formik.resetForm();
     },
   });
 
   return (
     <div
-      className={`fixed z-20 p-2 bottom-0 left-0 w-full h-[3.5em] bg-primary text-light ${
+      className={`fixed bottom-0 left-0 z-20 p-4 w-full h-[3.5em] bg-primary text-light ${
         editMode && "h-screen"
-      } transition-all flex justify-center items-center`}
+      } ${style.flexRowCenter} transition-all`}
     >
       {editMode ? (
         <form
-          className="flex flex-col justify-center items-center gap-5"
+          className={`${style.flexColCenter} w-full gap-5`}
           onSubmit={formik.handleSubmit}
         >
           <div className="text-center">
@@ -43,26 +54,32 @@ function AddBar() {
           <div className="flex flex-col gap-4 w-full">
             <input
               type="text"
-              id="linkName"
               name="linkName"
-              placeholder="Enter the name"
-              className="text-dark selection:bg-dark rounded-full px-4 py-3 w-full focus:ring-4 ring-secondary ring-offset-2 ring-offset-primary outline-none"
+              placeholder="Enter the name..."
+              className={`${style.input} ring-light ring-offset-2 ring-offset-primary`}
               value={formik.values.linkName}
               onChange={formik.handleChange}
             />
+            {formik.errors.linkName && formik.touched.linkName && (
+              <p className="text-light pl-4 text-sm">
+                {formik.errors.linkName}
+              </p>
+            )}
             <input
               type="text"
-              id="linkUrl"
               name="linkUrl"
-              placeholder="Enter the link"
-              className="text-dark selection:bg-dark rounded-full px-4 py-3 w-full focus:ring-4 ring-secondary ring-offset-2 ring-offset-primary outline-none"
+              placeholder="Enter the link..."
+              className={`${style.input} ring-light ring-offset-2 ring-offset-primary`}
               value={formik.values.linkUrl}
               onChange={formik.handleChange}
             />
+            {formik.errors.linkUrl && formik.touched.linkUrl && (
+              <p className="text-light pl-4 text-sm">{formik.errors.linkUrl}</p>
+            )}
           </div>
           <div className="flex gap-2">
             <button
-              className="bg-light text-dark rounded-full px-8 py-3 focus:ring-4 ring-secondary ring-offset-2 ring-offset-primary outline-none"
+              className={`${style.button} bg-light text-dark focus:ring-4 ring-light ring-offset-2 ring-offset-primary`}
               type="submit"
             >
               Add Link
