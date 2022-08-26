@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Links from "./pages/Links";
 import Login from "./pages/Login";
+import Guide from "./pages/Guide";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/links" element={<Links />} />
+            <Route path="/guide" element={<Guide />} />
           </Routes>
         </LinkContextProvider>
       </AuthContextProvider>

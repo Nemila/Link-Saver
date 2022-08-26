@@ -15,18 +15,24 @@ function AddBar() {
     initialValues: {
       linkName: "",
       linkUrl: "",
+      linkDesc: "",
     },
     validationSchema: Yup.object().shape({
       linkName: Yup.string()
         .min(4, "Minimum characters 4")
-        .max(20, "Maximum characters 20")
+        .max(100, "Maximum characters 100")
         .required("Please add a value to name"),
       linkUrl: Yup.string().required("Please add a link"),
+      linkDesc: Yup.string(),
     }),
     onSubmit: (values) => {
       createLink({
         name: values.linkName,
         link: values.linkUrl,
+        desc:
+          values.linkDesc !== ""
+            ? values.linkDesc
+            : "No description for this link",
         user: user.email,
       });
       setEditMode(false);
@@ -42,7 +48,7 @@ function AddBar() {
     >
       {editMode ? (
         <form
-          className={`${style.flexColCenter} max-w-md gap-5`}
+          className={`${style.flexColCenter} max-w-md w-full gap-5`}
           onSubmit={formik.handleSubmit}
         >
           <div className="text-center">
@@ -55,10 +61,11 @@ function AddBar() {
             <input
               type="text"
               name="linkName"
-              placeholder="Enter the name..."
+              placeholder="What name would you like ?"
               className={`${style.input} ring-light ring-offset-2 ring-offset-primary`}
               value={formik.values.linkName}
               onChange={formik.handleChange}
+              required
             />
             {formik.errors.linkName && formik.touched.linkName && (
               <p className="text-light pl-4 text-sm">
@@ -66,16 +73,25 @@ function AddBar() {
               </p>
             )}
             <input
-              type="text"
+              type="url"
               name="linkUrl"
-              placeholder="Enter the link..."
+              placeholder="What is the link ?"
               className={`${style.input} ring-light ring-offset-2 ring-offset-primary`}
               value={formik.values.linkUrl}
               onChange={formik.handleChange}
+              required
             />
             {formik.errors.linkUrl && formik.touched.linkUrl && (
               <p className="text-light pl-4 text-sm">{formik.errors.linkUrl}</p>
             )}
+            <textarea
+              type="text"
+              name="linkDesc"
+              placeholder="What about a little description ?"
+              className={`${style.input} ring-light ring-offset-2 ring-offset-primary`}
+              value={formik.values.linkDesc}
+              onChange={formik.handleChange}
+            ></textarea>
           </div>
           <div className="flex gap-2">
             <button
