@@ -27,7 +27,9 @@ export const LinkContextProvider = ({ children }) => {
       const unsubscribe = onSnapshot(q, (querySnapshot) => {
         const linksArr = [];
         querySnapshot.forEach((doc) => {
-          linksArr.push({ ...doc.data(), id: doc.id });
+          if (user.email === doc.data().user) {
+            linksArr.push({ ...doc.data(), id: doc.id });
+          }
         });
         setLinks(linksArr);
       });

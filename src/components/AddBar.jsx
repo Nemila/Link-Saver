@@ -42,7 +42,7 @@ function AddBar() {
     >
       {editMode ? (
         <form
-          className={`${style.flexColCenter} w-full gap-5`}
+          className={`${style.flexColCenter} max-w-md gap-5`}
           onSubmit={formik.handleSubmit}
         >
           <div className="text-center">
